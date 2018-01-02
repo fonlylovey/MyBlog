@@ -10,6 +10,7 @@ menu:
   osgEarth: /categories/osgEarth
   Qt: /categories/Qt
   Other: /categories/Other
+# 静心阅读: /tags
 
 # Link to your avatar | 填写头像地址
 avatar: /img/avatar.png
@@ -25,11 +26,13 @@ favicon: /img/favicon.png
 subnav:
   github: https://fonlylovey@163.com
   weibo: https://weibo.com/fonlylovey
+  rss: /atom.xml
 
   # Google: "#"
 # search_box: true
 
 # >>> Conments 评论系统 <<<
+
 changyan:
   on: true
   appid: xxxx
@@ -94,12 +97,13 @@ friends:
   csdn: http://http://blog.csdn.net/fonlylovey
 #是否开启“关于我”。
 aboutme: 我不是天桥上算命的，说不出那么多你爱听的。我也不是你的小浣熊，玩不出你要的其乐无穷！
+#aboutme: false
 
 # 是否在新窗口打开链接
 open_in_new: false
 
 # Customize feed link 自定义订阅地址
-#rss: /
+rss: /atom.xml
 
 
 # >>> Vendors | 第三方工具 & 服务 <<<
@@ -126,10 +130,6 @@ baidushare: true
 google_analytics: xxxxx
 baidu_analytics: xxxxxx
 
-visit_counter:
-  on: false
-  #site_visit: 极客到访数
-  #page_visit: 本页阅读量
 
 
 # A标签提示
